@@ -270,13 +270,14 @@
 }
 .footer .about{
     background-color: #403d38;
-    padding: 60px 50px;
+    padding: 60px 40px;
     overflow: hidden;
 }
 .footer .aboutContent{
     float: left;
     padding: 20px;
     width: 300px;
+   
 }
 .footer .aboutContent h3{
     color: white;
@@ -286,14 +287,87 @@
 .footer .aboutContent p{
     line-height: 1.8em;
     color:  #969696;
+    font-weight: lighter;
 }
 .footer .aboutContent ul{
     text-decoration: none;
     list-style: none;
+    line-height: 1.8em;
+}
+.footer .aboutContent ul li{
+    padding: 10px 5px;
+    color:  #969696;
 }
 .photo i{
-   
-    color: white;
+   color: aliceblue;
     margin-top: 50%;
 
 }
+.aboutContent .special i{
+    margin-right: 10px;
+}
+.aboutContent hr{
+   background-color: #525050;
+   border: none;
+   height: 1px;
+}
+.footer_logo{
+    background-color:#353330;
+    text-align: center;
+    padding-top: 50px;
+    overflow: hidden;
+    
+}
+.footer_logo h5{
+    color: #969696;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    padding-bottom: 20px;
+}
+.circle_container{
+    margin-left: 42%;
+}
+.footer_circle{
+    background-color: #525050;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding: 10px;
+    margin: 5px;
+}
+.footer_circle i{
+    color: #969696;
+}
+
+ .facebook:hover{
+    background-color:#3b5998;
+ }
+ .facebook:hover i{
+  color: aliceblue;
+ }
+ 
+ .google:hover{
+    background-color:#db4a39;
+ }
+ .google:hover i{
+    color: aliceblue;
+ }
+ .linkedin:hover{
+    background-color:#0A66C2;
+ }
+ .linkedin:hover i{
+    color: aliceblue;
+ }
+ .twitter:hover{
+    background-color:  #1DA1F2;
+ }
+ .twitter:hover i{
+    color: antiquewhite;
+ }
+.clear{
+    clear: both;
+}
+
+
+    
