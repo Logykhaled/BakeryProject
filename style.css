@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
 
+}
+p{
+    font-weight: 400;
 }
 .home
 {
@@ -28,36 +32,47 @@
     color: aliceblue;
     position: relative;
     top: 250px;
+    
 }
 .content h1{
     margin: 20px 0;
     font-size: 4em;
+    font-family: 'Alegreya', serif;
+    font-weight: 300;
 }
 .content p{
     font-size: 1.5em;
     margin-bottom: 25px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .content .btn1,.btn2{
     padding: 10px 20px;
     border-radius: 3px;
-    color: aliceblue;
+    color: white;
     height: 50px;
     margin: 10px;
     width: 150px;
+    font-size: 20px;
+    font-weight: 300;
     
 }
 .btn1{
     background-color: #8e7754;
-  
     border:1px solid transparent;
-
-
 }
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
 .btn2{
   background-color: transparent;
   border:1px solid aliceblue;
-
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
 }
 .line{
     height: 100px;
@@ -208,8 +223,10 @@
     width: 200px;
     padding: 10px;
     margin-left: 50px;
-    float: left;
+    float: left; 
+    
 }
+
 .photo{
     float: left;
     margin: 10px;
@@ -222,6 +239,8 @@
     width: 400px;
     height: 400px;
     z-index: -2;
+    transition: all 1s;
+
     
 }
 
@@ -254,11 +273,13 @@
     top:0;
     left: 100%; 
     background:rgba(0, 0, 0, 0.3);
-    text-align: center;
-
+    text-align: center; 
+   
 }
 .photo:hover .effect{
     left:0; 
+   
+
 }
 
 .footer{
@@ -325,7 +346,7 @@
     padding-bottom: 20px;
 }
 .circle_container{
-    margin-left: 42%;
+    margin-left: 43%;
 }
 .footer_circle{
     background-color: #525050;
@@ -367,6 +388,9 @@
  }
 .clear{
     clear: both;
+}
+.photos .photo:hover img{
+    transform:scale(1.3,1.3);
 }
 
 
